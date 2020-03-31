@@ -68,7 +68,7 @@ FIL.PlayerConnecting = function(playerId, setCallback, deferrals)
         local queryParams = {
             ['@identifier'] = steamIdentifier
         }
-        
+
         local query = 'SELECT COUNT(*) AS `count` FROM `user_identifiers` WHERE `identifier` = @identifier'
 
         if (license == nil) then
