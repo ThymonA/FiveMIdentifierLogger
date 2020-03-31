@@ -14,7 +14,6 @@ FIL.PlayerConnecting = function(playerId, setCallback, deferrals)
 
     deferrals.defer()
     deferrals.update(_U('updating_information', Config.Name))
-
     Citizen.Wait(100)
 
     if (not mySqlState) then
@@ -27,7 +26,6 @@ FIL.PlayerConnecting = function(playerId, setCallback, deferrals)
 
     if (FIL.MySQLRady and not mySqlState) then
         deferrals.update(_U('updating_information', Config.Name))
-
         Citizen.Wait(100)
     end
 
@@ -145,9 +143,7 @@ FIL.PlayerConnecting = function(playerId, setCallback, deferrals)
             end
 
             deferrals.update(_U('updated_information', Config.Name))
-
             Citizen.Wait(100)
-
             deferrals.done()
         end)
     else
@@ -163,9 +159,7 @@ FIL.PlayerConnecting = function(playerId, setCallback, deferrals)
         })
 
         deferrals.update(_U('updated_information', Config.Name))
-
         Citizen.Wait(100)
-
         deferrals.done()
     end
 end

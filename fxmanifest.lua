@@ -12,17 +12,13 @@ server_only 'yes'
 
 server_scripts {
     '@mysql-async/lib/MySQL.lua',
-
     'locale.lua',
-
     'locales/nl.lua',
     'locales/en.lua',
-
     'config.lua',
-
     'server/main.lua',
 }
 
 dependencies {
-    'mysql-async',
+    'mysql-async'
 }
