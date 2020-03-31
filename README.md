@@ -4,7 +4,7 @@
 
 [![Developer](https://img.shields.io/badge/Developer-TigoDevelopment-darkgreen)](https://github.com/TigoDevelopment)
 [![Discord](https://img.shields.io/badge/Discord-Tigo%239999-purple)](https://discordapp.com/users/636509961375055882)
-[![Version](https://img.shields.io/badge/Version-1.0.0-darkgreen)](https://github.com/TigoDevelopment/FiveMIdentifierLogger/blob/master/version)
+[![Version](https://img.shields.io/badge/Version-1.0.1-darkgreen)](https://github.com/TigoDevelopment/FiveMIdentifierLogger/blob/master/version)
 [![Version](https://img.shields.io/badge/License-MIT-darkgreen)](https://github.com/TigoDevelopment/FiveMIdentifierLogger/blob/master/LICENSE)
 
 ### About FiveM Identifier Logger

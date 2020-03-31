@@ -6,7 +6,7 @@ description 'Identifier logger created by Tigo#9999'
 name 'FiveM Identifier Logger'
 author 'TigoDevelopment'
 contact 'me@tigodev.com'
-version '1.0.0'
+version '1.0.1'
 
 server_only 'yes'
 
